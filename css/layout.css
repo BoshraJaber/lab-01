@@ -1,0 +1,48 @@
+body{
+    margin:5%;
+}
+.a{
+    width:100%;
+    height: 75px;
+}
+.b{
+    width:100%;
+    height: 150px;   
+}
+.c, .d{
+    width:100%;
+    height: 125px;   
+}
+.i{
+    width:100%;
+    height: 80px; 
+}
+.e-f{
+    width: 100%;
+    display: inline;
+}
+.e{
+    float: left;
+    width:50%;
+    height: 250px; 
+}
+.f{
+    float:right;
+    width:50%;
+    height: 250px; 
+}
+.g-h{
+    width: 100%;
+    display: inline;
+    
+}
+.g{
+    float: left;
+    width:50%;
+    height: 250px; 
+}
+.h{
+    float:right;
+    width:50%;
+    height: 250px; 
+}
