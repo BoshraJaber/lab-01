@@ -1,9 +1,12 @@
 body{
     color:silver;
     text-align: center;
+   
 }
 div {
     position: relative;
+ 
+    
   }
   p {
     position: absolute;
