@@ -2,3 +2,12 @@ body{
     color:silver;
     text-align: center;
 }
+div {
+    position: relative;
+  }
+  p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }

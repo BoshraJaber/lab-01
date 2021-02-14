@@ -14,7 +14,7 @@
     .c-iColumns{
         float:right;
         width:80%;
-        height:600px;
+        /* height:600px; */
     }
     .c-d-row{
         width:100%;
@@ -24,10 +24,12 @@
     .c{
         float:left;
         width:50%;
+        height: 200px;
     }
     .d{
         float:right;
         width: 50%;
+        height: 200px;
     }
     .fourBoxesRow{
         width:100%;

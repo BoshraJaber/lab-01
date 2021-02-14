@@ -20,29 +20,35 @@ body{
 .e-f{
     width: 100%;
     display: inline;
+    clear: both;
 }
 .e{
     float: left;
     width:50%;
     height: 250px; 
+    /* clear: left; */
 }
 .f{
     float:right;
     width:50%;
     height: 250px; 
+    /* clear: right; */
 }
-.g-h{
-    width: 100%;
-    display: inline;
+.g-h::after{
+    content: "";
+    display: table;
+    clear: both;
     
 }
 .g{
     float: left;
     width:50%;
-    height: 250px; 
+    height: 250px;
+    
 }
 .h{
     float:right;
     width:50%;
     height: 250px; 
 }
+
