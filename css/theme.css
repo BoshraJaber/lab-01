@@ -28,7 +28,7 @@
 }
 
 /* Desktop view  */
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 960px) {
     .a{
         background-color: rgb(90, 205, 125);
     }  
@@ -59,7 +59,7 @@
 }
 
 /* Tablet view  */
-@media screen and (min-width: 481px) and (max-width:768px ){
+@media screen and (min-width: 768px) and (max-width:959px ){
     .a{
         background-color: rgb(196, 123, 123);
     }  
