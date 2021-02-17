@@ -1,0 +1,54 @@
+body{
+    margin:5%;
+}
+.a{
+    width:100%;
+    height: 75px;
+}
+.b{
+    width:100%;
+    height: 150px;   
+}
+.c, .d{
+    width:100%;
+    height: 125px;   
+}
+.i{
+    width:100%;
+    height: 80px; 
+}
+.e-f{
+    width: 100%;
+    display: inline;
+    clear: both;
+}
+.e{
+    float: left;
+    width:50%;
+    height: 250px; 
+    /* clear: left; */
+}
+.f{
+    float:right;
+    width:50%;
+    height: 250px; 
+    /* clear: right; */
+}
+.g-h::after{
+    content: "";
+    display: table;
+    clear: both;
+    
+}
+.g{
+    float: left;
+    width:50%;
+    height: 250px;
+    
+}
+.h{
+    float:right;
+    width:50%;
+    height: 250px; 
+}
+
